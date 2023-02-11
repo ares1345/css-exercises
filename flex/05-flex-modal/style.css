@@ -9,11 +9,10 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .modal {
@@ -21,7 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 20px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -36,8 +37,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  
-  
 }
 
 .header {
@@ -47,12 +46,6 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
-
-
-}
-
-.test {
-  margin-bottom: 16px;
 }
 
 
@@ -65,8 +58,12 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 button {
@@ -85,3 +82,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
